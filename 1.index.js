@@ -1,5 +1,5 @@
 const art = document.getElementById("title");
-art.textContent = ("Welcome to Javascript");
+art.textContent = ("Welcome to the World");
 
 document.getElementById("description").style.backgroundColor = "lightgrey";
 
@@ -10,4 +10,11 @@ const list = document.getElementById("myList")
 
 list.appendChild(text);
 
-const list2 = document.getElementById("item2")
+let node = document.querySelector(".parent");
+console.log(node.parentElement)             //Accessing a parent node.
+
+
+
+
+
+
